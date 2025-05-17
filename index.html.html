@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Urbatera - Construção e Mercado Imobiliário</title>
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #222;
+    }
+    header {
+      background-color: #0a3d62;
+      padding: 15px 30px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner {
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      text-align: center;
+      padding: 0 20px;
+      box-shadow: inset 0 0 0 2000px rgba(10, 61, 98, 0.6);
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .cards {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px 8px 0 0;
+    }
+    footer {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Urbatera</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Notícias</a>
+      <a href="#">Imobiliário</a>
+      <a href="#">Construção</a>
+      <a href="#">Habitação</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    O universo da construção civil, mercado imobiliário e habitação na sua mão.
+  </section>
+
+  <main class="container">
+    <h2>Últimas Notícias</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=600&q=80" alt="Notícia 1" />
+        <h3>Tendências em construção sustentável</h3>
+        <p>Descubra as tecnologias que estão revolucionando o setor da construção civil.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1560185127-643deba3d17a?auto=format&fit=crop&w=600&q=80" alt="Notícia 2" />
+        <h3>Mercado imobiliário pós-pandemia</h3>
+        <p>Como as mudanças globais impactam o setor de imóveis no Brasil.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1581092795367-2f1594c0b94b?auto=format&fit=crop&w=600&q=80" alt="Notícia 3" />
+        <h3>Dicas para financiar sua casa própria</h3>
+        <p>Conheça os principais programas e opções de crédito habitacional.</p>
+      </div>
+    </div>
+
+    <section style="margin-top: 50px;">
+      <h2>Sobre a Urbatera</h2>
+      <p>Somos um portal dedicado a trazer inovação e conhecimento para você que quer construir, investir e entender tudo sobre construção civil, mercado imobiliário e habitação.</p>
+    </section>
+  </main>
+
+  <footer>
+    Contato: contato@urbatera.com | Redes sociais: @urbaterabr  
+    <br />© 2025 Urbatera - Todos os direitos reservados
+  </footer>
+</body>
+</html>
